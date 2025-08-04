@@ -1,0 +1,8 @@
+{
+    "name": "Support360",
+    "short_name": "Support360",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "description": "Support360 Application"
+  }
