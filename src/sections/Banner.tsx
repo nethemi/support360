@@ -101,7 +101,7 @@ const Banner: React.FC = () => {
                     <ArrowDown className="w-6 h-6 md:w-8 md:h-8 text-white animate-bounce" />
                   </div>
                   <Button className="w-full !bg-primary !text-white hover:!bg-primary-dark py-3">
-                    Посмотреть
+                    Посмотреть, как работет
                   </Button>
                 </a>
               </div>
