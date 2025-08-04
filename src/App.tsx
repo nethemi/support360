@@ -22,25 +22,10 @@ function App() {
   }, []);
 
   return (
-    <HelmetProvider>
-      <div className="font-sans">
-        <SEOHead />
-        <Header />
-        <Banner />
-        <UseCasesSection />
-        <FeaturesSection />
-        <WorkflowSection />
-        <StatisticsSection />
-        <ServiceHistorySection />
-        <AI_Section />
-        <SupportSection />
-        <FAQSection />
-        <ContactSection />
-        <Footer />
-        <ScrollToTop />
-        <CookieWidget />
-      </div>
-    </HelmetProvider>
+    <div style={{ padding: '20px' }}>
+    <h1>Support360 — работает!</h1>
+    <p>Если ты это видишь — React рендерится.</p>
+  </div>
   );
 }
 
