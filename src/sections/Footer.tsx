@@ -98,7 +98,6 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-6">Решение</h3>
             <ul className="space-y-3">
               <li><button onClick={() => scrollToSection('use-cases')} className="text-gray-400 hover:text-white transition-colors text-left">Применение</button></li>
               <li><button onClick={() => scrollToSection('features')} className="text-gray-400 hover:text-white transition-colors text-left">Возможности</button></li>
@@ -116,8 +115,7 @@ const Footer: React.FC = () => {
               <li><button onClick={() => scrollToUseCaseAndSelect(0)} className="text-gray-400 hover:text-white transition-colors text-left">IT-поддержка</button></li>
               <li><button onClick={() => scrollToUseCaseAndSelect(1)} className="text-gray-400 hover:text-white transition-colors text-left">Мероприятия и конференции</button></li>
               <li><button onClick={() => scrollToUseCaseAndSelect(2)} className="text-gray-400 hover:text-white transition-colors text-left">Гостиницы и отели</button></li>
-              <li><button onClick={() => scrollToUseCaseAndSelect(3)} className="text-gray-400 hover:text-white transition-colors text-left">Интернет-магазины</button></li>
-              <li><button onClick={() => scrollToUseCaseAndSelect(4)} className="text-gray-400 hover:text-white transition-colors text-left">ЖКХ и управляющие компании</button></li>
+              <li><button onClick={() => scrollToUseCaseAndSelect(3)} className="text-gray-400 hover:text-white transition-colors text-left">ЖКХ и управляющие компании</button></li>
             </ul>
           </div>
           
